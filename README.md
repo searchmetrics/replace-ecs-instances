@@ -30,8 +30,8 @@ $ ansible-galaxy install -r roles.yml
 ### mandatory
 
 * **aws_profile**
-  * description: AWS ECS cluster name
-  * example: "a_very_good_cluster_name"
+  * description: AWS profile name
+  * example: "dataprovisioning"
 * **ecs_cluster_clustername**
   * description: AWS ECS cluster name
   * example: "a_very_good_cluster_name"
