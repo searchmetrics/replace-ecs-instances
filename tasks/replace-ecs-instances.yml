@@ -1,0 +1,5 @@
+---
+
+- name: Replace old ecs instances
+  local_action: "command python {{ role_path }}/files/replace_instances.py --profile {{ aws_profile }} --cluster {{ ecs_cluster_clustername }} --autoscalinggroup {{ ecs_cluster_autoscalinggroupname }}"
+  when: aws_ecs_replace_nodes_enabled

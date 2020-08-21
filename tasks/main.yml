@@ -1,0 +1,4 @@
+---
+
+- import_tasks: replace-ecs-instances.yml
+  tags: [ 'replace-ecs-instances' ]
