@@ -17,10 +17,10 @@ $ ansible-galaxy install -r roles.yml
 ```
 *roles.yml*
 ```YAML
-  - name: replace-ecs-instances-1.0
+  - name: replace-ecs-instances-1.1
     src: git@github.com:searchmetrics/replace-ecs-instances.git
     scm: git
-    version: "1.0"
+    version: "1.1"
 ```
 * also see the [Ansible Galaxy documentation](http://docs.ansible.com/ansible/galaxy.html) and the 
 [Ansible Galaxy introduction](https://galaxy.ansible.com/intro)
